@@ -27,7 +27,7 @@ table = PrettyTable()
 table.field_names = ["Request Status", "Created Date", "Title", "user", "url"]
 
 # search for the pull request from random public github repository
-api_url = f"https://api.github.com/repos/ange-yaghi/engine-sim/pulls?state=all"
+api_url = "https://api.github.com/repos/ange-yaghi/engine-sim/pulls?state=all"
 
 print("The github url used is: " + api_url)
 
